@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+       body{
+        background-color: rgb(55, 74, 84);
+       }
+       h1{
+        color: aqua;
+       }
+        table {
+            width: 700px;
+            height: 700px;
+            border-collapse: collapse;
+        }
+        td{
+            text-align: center;
+            width: 10px;
+            height: 50px;
+        }
+        :root{
+            --color1:black;
+            --color2:white;
+        }
+         .even td:nth-last-child(even), .odd td:nth-last-child(odd){
+            background-color: var(--color1);
+        }
+        .odd td:nth-last-child(even), .even td:nth-last-child(odd){
+            background-color: var(--color2)
+        }
+        .even td:nth-last-child(even):hover, .odd td:nth-last-child(odd):hover{
+            background-color: rgb(148, 235, 8);
+        }
+        #a{
+            background-color: rgb(239, 49, 7);
+            font-size: 50px;
+        }
+        #b{
+            background-color: rgb(255, 252, 249);
+            font-size: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 align="center">CHESS BOARD</h1>
+    <table align="center" border="" >
+        <tr class="even">
+            <td id="a">&#9820</td>
+            <td id="b">&#9822</td>
+            <td id="a">&#9821</td>
+            <td id="b">&#9818</td>
+            <td id="a">&#9819</td>
+            <td id="b">&#9821</td>
+            <td id="a">&#9822</td>
+            <td id="b">&#9820</td>
+        </tr>
+        <tr class="odd">
+            <td id="b">&#9823</td>
+            <td id="a">&#9823</td>
+            <td id="b">&#9823</td>
+            <td id="a">&#9823</td>
+            <td id="b">&#9823</td>
+            <td id="a">&#9823</td>
+            <td id="b">&#9823</td>
+            <td id="a">&#9823</td>
+        </tr>
+        <tr class="even">
+            <td id="a"></td>
+            <td></td>
+            <td id="a"></td>
+            <td></td>
+            <td id="a"></td>
+            <td></td>
+            <td id="a"></td>
+            <td></td>
+        </tr>
+        <tr class="odd">
+            <td id=""></td>
+            <td id="a"></td>
+            <td></td>
+            <td id="a"></td>
+            <td></td>
+            <td id="a"></td>
+            <td></td>
+            <td id="a"></td>
+        </tr>
+        <tr class="even">
+            <td id="a"></td>
+            <td></td>
+            <td id="a"></td>
+            <td></td>
+            <td id="a"></td>
+            <td></td>
+            <td id="a"></td>
+            <td></td>
+        </tr>
+        <tr class="odd">
+            <td></td>
+            <td id="a"></td>
+            <td></td>
+            <td id="a"></td>
+            <td></td>
+            <td id="a"></td>
+            <td></td>
+            <td id="a"></td>
+        </tr>
+        <tr class="even">
+            <td id="a">&#9817</td>
+            <td id="b">&#9817</td>
+            <td id="a">&#9817</td>
+            <td id="b">&#9817</td>
+            <td id="a">&#9817</td>
+            <td id="b">&#9817</td>
+            <td id="a">&#9817</td>
+            <td id="b">&#9817</td>
+        </tr>
+        <tr class="odd">
+            <td id="b">&#9814</td>
+            <td id="a">&#9816</td>
+            <td id="b">&#9815</td>
+            <td id="a">&#9812</td>
+            <td id="b">&#9813</td>
+            <td id="a">&#9815</td>
+            <td id="b">&#9816</td>
+            <td id="a">&#9814</td>
+        </tr>
+
+    </table>
+</body>
+</html>

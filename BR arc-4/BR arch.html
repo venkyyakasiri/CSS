@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "poppins",sans-serif;
+        }
+        .header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 100px;
+            background-color: rgb(233, 235, 230);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1;
+
+        }
+        .e1{
+            position: absolute;
+            right: 52%;
+            top:50%;
+            background-color:black;
+            backdrop-filter:black;
+            background-size: 300px;
+            color: white;
+            font-size: 50px;
+            
+        }
+        .e2{
+            position: absolute;
+            right: 39%;
+            top:51%;
+            color:white;
+            font-size: 40px;
+        }
+        .br{
+            font-size: 20px;
+            color: rgb(15, 14, 14);
+            text-decoration: none;
+        }
+        .v a{
+            padding: 20px;
+            font-size: 20px;
+            color: rgb(15, 14, 14);
+            text-decoration: none;
+        }
+        .vk{
+            width: 100%;
+            padding: 15px;
+            }
+        img{
+
+            display: inline-block;
+            width: 460px;
+            padding: 10px;
+            padding-left: 90px;
+        }
+        #h1b{
+            display: block;
+            background-color: black;
+            color: rgb(221, 230, 230);
+            position: relative;
+            bottom:253px;
+            left: 90px;
+            text-align: center;
+            z-index: 50;
+            width: 220px;
+        }
+    </style>
+</head>
+<body>
+   <header class="header">
+    <a href="" class="br"> <b>B R </b>Architecture</a>
+     <div class="v">
+     <a href="#">Projects</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    </div>
+   </header>
+   <h1 class="e1">B R</h1>
+   <h2 class="e2">Architecture</h2>
+    <img src="br.jpg" class="vk" width="100%">
+    <br><br>
+    <h2>Projects</h2> 
+    <br>
+    <hr width="100%">
+    <br><br>
+    <table>
+     <tr>
+         <td>
+         <img src="house1.jpg" class="A" >
+         <h2 id="h1b">Summer house</h2>
+         </td>
+         <td> 
+         <img src="house2.jpg" class="A">
+         <h2 id="h1b">Brick house</h2>
+         </td>
+         <td>
+         <img src="house3.jpg" >
+         <h2 id="h1b">Renovated</h2>
+         </td>
+         <td>
+         <img src="house4.jpg" >
+         <h2 id="h1b">Batn house</h2>
+         </td>
+        </tr>
+     <tr>
+         <td>
+         <img src="house4.jpg" width="">
+         <h2 id="h1b">Batn house</h2>
+         </td>
+         <td>
+         <img src="house3.jpg" width="">
+         <h2 id="h1b">Renovated</h2>
+         </td>
+         <td>
+         <img src="house1.jpg" width="">
+         <h2 id="h1b">summer house</h2>
+         </td>
+         <td>
+         <img src="house2.jpg" width="">
+         <h2 id="h1b">Brick house</h2>
+         </td>
+     </tr>
+    </table>
+</body>
+</html>
