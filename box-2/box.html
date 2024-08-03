@@ -5,40 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            padding-top: 100px;
+        padding-left: 100px;
+        overflow: hidden;
+        }
        .container{
+    scrollbar-width: none;
     font-family:sans-serif;
 }
 #margin {
     border:2px solid black;
     border-style: dashed;
-    margin:5%;
-    margin-top: 10%;
-    height: 600px;
-    padding:2%;
+    margin: 200px;
+    height: 700px;
+    padding: 10px;
     background-color: aqua;
     border-radius: 5px;
 }
 #border{
     border: 2px solid black;
-    margin: 5%;
-    padding: 2%;
-    height: 400px;
+    margin: 2%;
+    height: 550px;
     background-color: bisque;
     border-radius: 5px;
 }
 #padding{
     border: 3px solid black;
     border-style: groove;
-    margin:5%;
+    margin:2%;
     padding: 2%;
+    height: 350px;
     background-color: burlywood;
     border-radius: 5px;
 }
 #content{
     border:2px solid black;
     border-style:solid;
-    margin: 5%;
-    padding:5%;
+    margin: 2%;
+    padding:2%;
+    height:50px;
     background-color: chartreuse;
     border-radius: 5px;
     height: 200px;
@@ -46,11 +52,11 @@
 </style>
 </head>
 <body>
-    <div class="container">
-    <div id="margin"> <h3>margin</h3>
-    <div id="border"><h3>border</h3>
-    <div id="padding"><h3>padding</h3>
-    <div id="content"><h3>content</h3>
+     <div class="container">
+         <div id="margin"> <h3>margin</h3>
+             <div id="border"><h3>border</h3>
+                <div id="padding"><h3>padding</h3>
+                   <div id="content"><h3>content</h3>
                    </div>
                 </div>
             </div>
