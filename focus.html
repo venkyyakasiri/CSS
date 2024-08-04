@@ -5,48 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>focus</title>
     <style>
-    .v{
+    .navbar{
         border: 2px solid greenyellow;
         background-color: rgb(229, 83, 15);
-        text-align: center;
-        padding-top: 20px;
+        padding: 10px;
+    
         width: 100%;
         height:50px
     }
-    .text{
-        
-    }
-    .v1:focus~.a{
-        display: inline-table;
-    }
-    .v1{
-        background-color: aqua;
-        border-color: brown;
-    }
-    .a{ 
-        display: none;
-        background-color: bisque;
-        text-align: center;
+    .container {
+        background-color: aquamarine;
         width: 200px;
-        height: 150px;
+        height: 200px;
         border: 2px solid red;
-        
-        
+        display: none;
+        position: absolute;
     }
+    .container div{
+        background-color: azure;
+        margin: 10px;
+        padding: 10px;
+    
+    }
+    h1{
+        text-align: center;
+        margin-top: 1px;
+    }
+    button:focus~ .container{
+        display: block;
+    }
+    
+    .container div a{
+        margin: 50px;
+    }    
+        
+    
 
     </style>
 </head>
 <body>
-    <section >
-        <h1 class="v">venky</h1>
-        <button class="v1">click me</button>
-        <div class="a">
-        <div class="">vk</div>
-        <div class="">vk</div>
-        <div class="">vk</div>
-        <a href="https://en.wikipedia.org/wiki/Virat_Kohli">virat</a>
-        </div>
-    </section>
+    <div class="navbar" >
+        <h1>venky</h1>
+    </div>
+        <button >
+            click me 
+        </button>
+        <div class="container">
+            <div>vk</div>
+            <div>vk</div>
+            <div>vk</div>
+        <div><a href="https://en.wikipedia.org/wiki/Virat_Kohli">virat</a></div>
+            </div>
+        
+    
     
         
         <div class="text">
