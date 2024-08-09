@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid layout</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 30% 25% 25% 20%;
+            grid-template-rows: 30% 40% 30%;
+            background-color: antiquewhite;
+            width: 100%;
+            height: 90vh;
+            font-size: 200%;
+        }
+        .child{
+            background-color: aquamarine;
+            grid-row: 1/4;
+            border: 6px solid rgb(225, 216, 216);
+
+        }
+        .child1{
+            background-color: bisque;
+            border: 6px solid rgb(213, 206, 206);
+            grid-column: 2/4;
+            
+
+        }
+        .child2{
+            background-color: blueviolet;
+            border: 6px solid rgb(226, 219, 219);
+            grid-column: 4/5 ;
+
+        }
+        .child3{
+            background-color: chartreuse;
+            border: 6px solid rgb(221, 211, 211);
+            grid-row:2/3;
+
+        }
+        .child4{
+            background-color: rgb(40, 197, 197);
+            border: 6px solid rgb(227, 222, 222);
+            grid-row: 2/3 ;
+
+        }
+        .child5{
+            background-color: blue;
+            border: 6px solid rgb(210, 196, 196);
+            grid-row: 3/3;
+        }
+        
+        .child6{
+            background-color: pink;
+            
+            border: 6px solid rgb(210, 196, 196);
+            grid-row: 3/3 ;
+        }
+        .footer{
+            background-color: yellow;
+            
+            border: 6px solid rgb(210, 196, 196);
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+
+        .container div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child">header</div>
+        <div class="child1">content1</div>
+        <div class="child2">content2</div>
+        <div class="child3">content3</div>
+        <div class="child4">content4</div>
+        <div class="child5">content5</div>
+        <div class="child6">content6</div>
+        <div class="footer">footer</div>
+
+    </div>
+</body>
+</html>

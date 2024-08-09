@@ -46,7 +46,8 @@
           "text-emphasis-color",
           "backdrop-filter",
           "scrollbar-width",
-          "text-size-adjust"
+          "text-size-adjust",
+          "text-emphasis"
         ]
       }
     ]
