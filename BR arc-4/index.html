@@ -12,7 +12,7 @@
             font-family: "poppins",sans-serif;
         }
         .header{
-            position: fixed;
+            position: relative;
             top: 0;
             left: 0;
             width: 100%;
@@ -24,25 +24,8 @@
             z-index: 1;
 
         }
-        .e1{
-            position: absolute;
-            right: 53%;
-            top:52%;
-            background-color:black;
-            backdrop-filter:black;
-            background-size: 150%;
-            color: white;
-            font-size: 280%;
         
-            
-        }
-        .e2{
-            position: absolute;
-            right: 39%;
-            top:51%;
-            color:white;
-            font-size: 250%;
-        }
+        
         .br{
             font-size: 20px;
             color: rgb(15, 14, 14);
@@ -60,7 +43,6 @@
             padding: 1%;
             }
         img{
-
             display: inline-block;
             width: 100%;
             padding:3%;
@@ -97,6 +79,26 @@
             }
             
         }
+        .br1{
+            position: relative;
+        }
+        .text .e1{
+            position: absolute;
+            right: 53%;
+            top:52%;
+            background-color:black;
+            backdrop-filter:black;
+            background-size: 150%;
+            color: white;
+            font-size: 280%;
+        }
+        .text .e2{
+            position: absolute;
+            right: 39%;
+            top:51%;
+            color:white;
+            font-size: 250%;
+        }
     </style>
 </head>
 <body>
@@ -108,9 +110,13 @@
     <a href="#">Contact</a>
     </div>
    </header>
-   <h1 class="e1">B R</h1>
-   <h2 class="e2">Architecture</h2>
-    <img src="br.jpg" class="vk" width="100%">
+   <div class="br1">
+       <img src="br.jpg" class="vk" width="100%">
+    <div class="text">
+        <h1 class="e1">B R</h1>
+        <h2 class="e2">Architecture</h2>
+    </div>
+    </div>
     <br><br>
     <h2>Projects</h2> 
     <br>
