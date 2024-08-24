@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music</title>
+    <style>
+        body{
+            background-image: url(music.jpg);
+        }
+        img{
+            border: 1px solid white;
+            width:15%;
+            height: 20vh;
+            border-radius: 50%;
+            margin-top:200px ;
+            margin-left: 100px;
+            animation:img 10s infinite linear;
+        }
+        audio{
+            padding-top:20px;
+            margin-left: 70px;
+        }
+        h2{
+            background-color: bisque;
+            width: 250px;
+            text-align: center;
+            margin-left: 100px;
+            margin-top: 50px;
+
+        }
+        
+        @keyframes img{
+            100%{
+             transform:rotate(360deg);            
+              }
+          
+              
+        } 
+        .vk{
+            display: flex;
+            gap: 3px;
+            padding-top: 5px;
+            padding-left: 160px;
+
+        }
+    
+        .waves{
+            background-color: red;
+            height: 3em;
+            width: 0.3em;
+            border-radius: 10px;
+            animation: wave 1s infinite ease-out alternate ;
+        }
+        .waves:nth-child(2n){
+            animation-delay:0.1s;
+        }
+        .waves:nth-child(3n){
+            animation-delay: 0.3s;
+        }
+        .waves:nth-child(7n){
+            animation-delay: 0.5s;
+        }
+        .waves:nth-child(9n){
+            animation-delay: 0.7s;
+        }
+        .waves:nth-child(12n){
+            animation-delay: 0.9s;
+        }
+
+        @keyframes wave{
+            0%,100%{
+                transform: scaleY(1);
+
+            }
+            50%{
+                transform: scaleY(0.5);
+            }
+        }
+
+       
+    </style>
+
+</head>
+<body>
+  <div class="animation">
+    <img src="vai.jpg">
+    <h2>kurisey kurisey</h2>
+      <div class="vk">
+        <div class="waves"></div>
+        <div class="waves"></div>
+        <div class="waves"></div>
+        <div class="waves"></div>
+        <div class="waves"></div>
+        <div class="waves"></div>
+        <div class="waves"></div>
+        <div class="waves"></div>
+        <div class="waves"></div>
+        <div class="waves"></div>
+        <div class="waves"></div>
+        <div class="waves"></div>
+        <div class="waves"></div>
+      </div>
+      <audio controls type="1">
+          <source src="Kurisey Kurisey - SenSongsmp3.Co.mp3" >
+      </audio>
+   </div>
+</body>
+</html>

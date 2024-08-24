@@ -47,7 +47,8 @@
           "backdrop-filter",
           "scrollbar-width",
           "text-size-adjust",
-          "text-emphasis"
+          "text-emphasis",
+          "rotate"
         ]
       }
     ]
